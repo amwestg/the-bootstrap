@@ -71,11 +71,11 @@ jQuery( function( $ ) {
 					break;
 					
 				case 'amelia-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="amelia-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'amelia.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="amelia-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'amelia/bootstrap.css" type="text/css" media="all" />' );
 					break;
 					
 				case 'cerulean-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="cerulean-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'cerulean.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="cerulean-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'cerulean/bootstrap.css" type="text/css" media="all" />' );
 					break;
 					
 				case 'cosmo-bootstrap':
@@ -83,39 +83,39 @@ jQuery( function( $ ) {
 					break;
 					
 				case 'cyborg-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="cyborg-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'cyborg.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="cyborg-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'cyborg/bootstrap.css" type="text/css" media="all" />' );
 					break;
 					
 				case 'journal-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="journal-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'journal.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="journal-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'journal/bootstrap.css" type="text/css" media="all" />' );
 					break;
 				
 				case 'readable-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="readable-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'readable.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="readable-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'readable/bootstrap.css" type="text/css" media="all" />' );
 					break;
 					
 				case 'simplex-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="simplex-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'simplex.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="simplex-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'simplex/bootstrap.css" type="text/css" media="all" />' );
 					break;
 					
 				case 'slate-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="slate-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'slate.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="slate-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'slate/bootstrap.css" type="text/css" media="all" />' );
 					break;
 					
 				case 'spacelab-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="spacelab-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'spacelab.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="spacelab-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'spacelab/bootstrap.css" type="text/css" media="all" />' );
 					break;
 					
 				case 'spruce-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="spruce-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'spruce.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="spruce-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'spruce/bootstrap.css" type="text/css" media="all" />' );
 					break;
 					
 				case 'superhero-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="superhero-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'superhero.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="superhero-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'superhero/bootstrap.css" type="text/css" media="all" />' );
 					break;
 				
 				case 'united-bootstrap':
-					$( 'head' ).append( '<link rel="stylesheet" id="united-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'united.css" type="text/css" media="all" />' );
+					$( 'head' ).append( '<link rel="stylesheet" id="united-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'united/bootstrap.css" type="text/css" media="all" />' );
 					break;
 			} 
 		} ); 
