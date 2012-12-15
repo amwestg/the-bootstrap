@@ -52,6 +52,7 @@ function the_bootstrap_customize_register( $wp_customize ) {
 			'twitter-bootstrap'   => 'Twitter',
 			'amelia-bootstrap'    => 'Amelia',
 			'cerulean-bootstrap'  => 'Cerulean',
+			'cosmo-bootstrap'     => 'Cosmo',
 			'cyborg-bootstrap'    => 'Cyborg',
 			'journal-bootstrap'   => 'Journal',
 			'readable-bootstrap'  => 'Readable',

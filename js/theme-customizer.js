@@ -55,6 +55,7 @@ jQuery( function( $ ) {
 			$( 'head' ).append( '<link rel="stylesheet" id="amelia-lobster-font-css" href="//fonts.googleapis.com/css?family=Lobster" type="text/css" media="all" />' );
 			$( 'head' ).append( '<link rel="stylesheet" id="amelia-cabin-font-css" href="//fonts.googleapis.com/css?family=Cabin:400,700" type="text/css" media="all" />' );
 			$( 'head' ).append( '<link rel="stylesheet" id="cerulean-telex-font-css" href="//fonts.googleapis.com/css?family=Telex" type="text/css" media="all" />' );
+			$( 'head' ).append( '<link rel="stylesheet" id="cosmo-open-sans-font-css" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" type="text/css" media="all" />' );
 			$( 'head' ).append( '<link rel="stylesheet" id="cyborg-droid-sans-font-css" href="//fonts.googleapis.com/css?family=Droid+Sans:400,700" type="text/css" media="all" />' );
 			$( 'head' ).append( '<link rel="stylesheet" id="journal-news-cycle-font-css" href="//fonts.googleapis.com/css?family=News+Cycle:400,700" type="text/css" media="all" />' );
 			$( 'head' ).append( '<link rel="stylesheet" id="simplex-josefin-sans-font-css" href="//fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" type="text/css" media="all" />' );
@@ -75,6 +76,10 @@ jQuery( function( $ ) {
 					
 				case 'cerulean-bootstrap':
 					$( 'head' ).append( '<link rel="stylesheet" id="cerulean-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'cerulean.css" type="text/css" media="all" />' );
+					break;
+					
+				case 'cosmo-bootstrap':
+					$( 'head' ).append( '<link rel="stylesheet" id="cosmo-bootstrap-css" href="' + the_bootstrap_customize.css_path + 'cosmo/bootstrap.css" type="text/css" media="all" />' );
 					break;
 					
 				case 'cyborg-bootstrap':
